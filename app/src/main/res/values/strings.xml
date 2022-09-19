@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Apps KP</string>
+    <string name="logo1">Logo Unand</string>
+    <string name="username">Username</string>
+    <string name="textlogin">Sistem Informasi KP Unand</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>
