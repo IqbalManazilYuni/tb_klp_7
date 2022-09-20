@@ -25,24 +25,6 @@
         tools:layout_editor_absoluteY="239dp" />
 
     <TextView
-        android:id="@+id/textView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logbook 3"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="297dp" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kegiatan"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="381dp" />
-
-    <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,6 +61,115 @@
         android:textColor="#2E2D2D"
         tools:layout_editor_absoluteX="187dp"
         tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="235dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="36dp"
+        android:text="Menggunakan komputer kantor"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="235dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="36dp"
+        android:text="Buat program untuk mendata karyawan baru"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Logbook 3"
+        android:textColor="#2E2D2D"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Kegiatan"
+        android:textColor="#2E2D2D"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Masalah"
+        android:textColor="#2E2D2D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Solusi"
+        android:textColor="#2E2D2D"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="235dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="36dp"
+        android:text="Laptop tidak memadai"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="292dp"
+        android:fontFamily="sans-serif-black"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="288dp"
+        android:fontFamily="sans-serif-black"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="288dp"
+        android:fontFamily="sans-serif-black"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="437dp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -204,5 +295,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E6578"
+        android:text="Respon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="653dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
