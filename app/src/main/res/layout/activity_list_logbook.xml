@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListLogbook">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="LIST LOGBOOK"
+        android:textColor="#4A4A4A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Iqbal Manazil Yuni logbook 3"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Deyola Fadwa Shifana logbook 3"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Iqbal Manazil Yuni logbook 4"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Muhammad Erlangga logbook 3"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Deyola Fadwa Shifana logbook 2"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Muhammad Erlangga logbook 2"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Muhammad Erlangga logbook 1"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Deyola Fadwa Shifana logbook 1"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="229dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#2E6578"
+        android:backgroundTintMode="add"
+        android:text="Iqbal Manazil Yuni logbook 2"
+        android:visibility="visible"
+        app:iconTint="#2E6578"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#2E6578"
+        tools:layout_editor_absoluteY="616dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
