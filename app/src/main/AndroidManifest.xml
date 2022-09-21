@@ -14,6 +14,21 @@
         android:theme="@style/Theme.Tb_klp_7"
         tools:targetApi="31">
         <activity
+            android:name=".SetujuiSeminar"
+            android:exported="false" />
+        <activity
+            android:name=".SeminarKpPersonal"
+            android:exported="false" />
+        <activity
+            android:name=".Seminar"
+            android:exported="false" />
+        <activity
+            android:name=".InputNilai"
+            android:exported="false" />
+        <activity
+            android:name=".FormPembatalanKp"
+            android:exported="false" />
+        <activity
             android:name=".ResponLogbook"
             android:exported="false" />
         <activity

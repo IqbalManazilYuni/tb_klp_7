@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeminarKpPersonal">
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Jadwal Seminar KP"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anto"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2011522007"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="SEMINAR"
+        android:textColor="#4A4A4A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iqbal Manazil Yuni"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosen Pembimbing"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BPTU HPT Padang Mengatas"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembimbing KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kamis / 8 September 2022"
+        android:textColor="#2E2D2D"
+        app:layout_constraintTop_toBottomOf="@+id/textView149"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Husnil Kamil, MT"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Agustus 2022"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="236dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        app:srcCompat="@drawable/ic_baseline_calendar_today_24"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="334dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

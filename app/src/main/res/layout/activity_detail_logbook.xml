@@ -307,4 +307,17 @@
         app:rippleColor="#2E6578"
         tools:layout_editor_absoluteY="653dp" />
 
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="28dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
