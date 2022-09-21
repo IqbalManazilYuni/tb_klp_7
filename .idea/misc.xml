@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Win10/AndroidStudioProjects/tb_klp_7/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Win10/AndroidStudioProjects/tb_klp_7/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Win10/AndroidStudioProjects/tb_klp_7/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Win10/AndroidStudioProjects/tb_klp_7/app/src/main/res/layout/activity_reset_pass.xml" value="0.25" />
+        <entry key="..\:/Users/Win10/AndroidStudioProjects/tb_klp_7/app/src/main/res/layout/activity_update_profile.xml" value="0.25" />
         <entry key="..\:/tb_klp_7/app/src/main/res/layout/activity_main.xml" value="0.34782608695652173" />
       </map>
     </option>
