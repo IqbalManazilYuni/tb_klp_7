@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/tb_klp_7/app/src/main/res/layout/activity_dashboard_kp.xml" value="0.34782608695652173" />
         <entry key="..\:/tb_klp_7/app/src/main/res/layout/activity_main.xml" value="0.34782608695652173" />
       </map>
     </option>
@@ -16,7 +17,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.34782608695652173" />
+        <option name="scale" value="0.3625" />
       </ProjectState>
     </option>
   </component>
