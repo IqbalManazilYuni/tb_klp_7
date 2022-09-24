@@ -2,7 +2,14 @@
     <string name="app_name">Apps KP</string>
     <string name="logo1">Logo Unand</string>
     <string name="username">Username</string>
-    <string name="textlogin">Sistem Informasi KP Unand</string>
+    <string name="textlogin">Universitas Andalas</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="teks_dis">Departemen Sistem Informasi </string>
+    <string name="teks3">Portal KP</string>
+    <string name="todo">TODO</string>
+    <string name="your_profile">YOUR PROFILE</string>
+    <string name="email">Email</string>
+    <string name="husnilk_gmail_com">HusnilK@Gmail.com</string>
+    <string name="_198201182008121002">198201182008121002</string>
 </resources>
