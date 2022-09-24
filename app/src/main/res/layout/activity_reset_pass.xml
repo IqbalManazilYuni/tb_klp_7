@@ -7,67 +7,100 @@
     android:layout_height="match_parent"
     tools:context=".reset_pass">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="129dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_unand" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/Widget.MaterialComponents.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="544dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Universitas Andalas"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
     <Button
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginEnd="80dp"
         android:backgroundTint="#FF0000"
         android:text="Cancel"
-        app:layout_constraintTop_toBottomOf="@+id/button10"
-        tools:layout_editor_absoluteX="159dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:backgroundTint="#2E6578"
         android:text="Reset"
-        app:layout_constraintTop_toBottomOf="@+id/ulangipw"
-        tools:layout_editor_absoluteX="159dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/Pwbaru"
         android:layout_width="303dp"
         android:layout_height="55dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="32dp"
         android:hint="Password Baru"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/old_password" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/old_password"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="288dp"
+        android:hint="Password Saat Ini"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/ulangipw"
         android:layout_width="303dp"
         android:layout_height="55dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:hint="Ulangi Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Pwbaru" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/old_password"
-        android:layout_width="303dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="68dp"
-        android:hint="Password Saat Ini"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="216dp"
         android:fontFamily="sans-serif-medium"
         android:text="RESET PASSWORD"
         android:textColor="#4A4A4A"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.262"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
