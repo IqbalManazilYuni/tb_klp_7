@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 R.id.button2 ->{
                     val pindahintent = Intent(this, DashboardKp::class.java)
                     startActivity(pindahintent)
+                    finish()
                 }
             }
         }

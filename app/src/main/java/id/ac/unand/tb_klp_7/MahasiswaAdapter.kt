@@ -11,10 +11,13 @@ import androidx.recyclerview.widget.RecyclerView
 class MahasiswaAdapter(private val mahasiswaList:ArrayList<mahasiswa>)
     : RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder>(){
 
+    var onItemClick : ((mahasiswa)-> Unit)? = null
+
     class MahasiswaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-        val imageview : ImageView = itemView.findViewById(R.id.gambar_1)
-        val namaMahasiswa : TextView = itemView.findViewById(R.id.nama)
-        val nimMahasiswa : TextView = itemView.findViewById(R.id.nim)
+        val imageview : ImageView = itemView.findViewById(R.id.gambar_mahasiswa_item)
+        val namaMahasiswa : TextView = itemView.findViewById(R.id.nama_mahasiswa_item)
+        val nimMahasiswa : TextView = itemView.findViewById(R.id.nim_mahasiswa_item)
+        val lokasiMahasiswa : TextView = itemView.findViewById(R.id.lokasi_mahasiswa_item)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MahasiswaViewHolder {
@@ -23,10 +26,15 @@ class MahasiswaAdapter(private val mahasiswaList:ArrayList<mahasiswa>)
     }
 
     override fun onBindViewHolder(holder: MahasiswaViewHolder, position: Int) {
-        val mahasiswa = mahasiswaList[position]
-        holder.imageview.setImageResource(mahasiswa.imgview)
-        holder.namaMahasiswa.text = mahasiswa.nama_mahasiswa
-        holder.nimMahasiswa.text = mahasiswa.nim_mahasiswa
+        val Mahasiswa = mahasiswaList[position]
+        holder.imageview.setImageResource(Mahasiswa.imgview)
+        holder.namaMahasiswa.text = Mahasiswa.nama_mahasiswa
+        holder.nimMahasiswa.text = Mahasiswa.nim_mahasiswa
+        holder.lokasiMahasiswa.text = Mahasiswa.lokasi_kp
+
+        holder.itemView.setOnClickListener{
+            onItemClick?.invoke(Mahasiswa)
+        }
     }
 
     override fun getItemCount(): Int {

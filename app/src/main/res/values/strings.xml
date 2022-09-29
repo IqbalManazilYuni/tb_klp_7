@@ -13,4 +13,6 @@
     <string name="husnilk_gmail_com">HusnilK@Gmail.com</string>
     <string name="_198201182008121002">198201182008121002</string>
     <string name="textview">Departemen Sistem Informasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
