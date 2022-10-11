@@ -7,42 +7,105 @@
     tools:context=".DetailLogbook">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BPTU HPT Padang Mengatas"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="182dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pembimbing KP"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="239dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:text=":"
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        android:text="NIM"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="201dp" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
+        android:text="2011522032"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deyola Fadwa Shifana"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Agustus 2022"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text=":"
         android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anto"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="239dp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -54,13 +117,58 @@
         tools:layout_editor_absoluteY="220dp" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Deyola Fadwa Shifana"
+        android:text="BPTU HPT Padang Mengatas"
         android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Husnil Kamil, MT"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembimbing KP"
+        android:textColor="#2E2D2D"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="239dp" />
 
     <TextView
         android:id="@+id/textView56"
@@ -86,10 +194,10 @@
         android:id="@+id/textView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:fontFamily="sans-serif-black"
         android:text="Logbook 3"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="280dp" />
 
@@ -142,146 +250,43 @@
         android:id="@+id/textView47"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
         android:layout_marginEnd="292dp"
         android:fontFamily="sans-serif-black"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
         tools:layout_editor_absoluteY="328dp" />
 
     <TextView
         android:id="@+id/textView53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
         android:layout_marginEnd="288dp"
         android:fontFamily="sans-serif-black"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="547dp" />
 
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
         android:layout_marginEnd="288dp"
         android:fontFamily="sans-serif-black"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="437dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2011522032"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NIM"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tempat KP"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="182dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Anto"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="239dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Husnil Kamil, MT"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="220dp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nama"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Waktu KP"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="20 Agustus 2022"
-        android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="236dp"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView51"
+        tools:layout_editor_absoluteY="443dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -313,11 +318,5 @@
         app:barrierDirection="top"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="11dp" />
-
-    <androidx.constraintlayout.widget.Group
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="28dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

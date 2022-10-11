@@ -14,14 +14,19 @@
         android:text="Nama"
         android:textColor="#2E2D2D"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="MissingClass" />
 
     <Button
         android:id="@+id/button16"
         android:layout_width="229dp"
         android:layout_height="61dp"
+        android:layout_marginTop="29dp"
         android:backgroundTint="#2FC331"
         android:backgroundTintMode="add"
         android:text="Iqbal Manazil Yuni"
@@ -29,8 +34,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="217dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView128"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button15"
@@ -59,4 +64,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
