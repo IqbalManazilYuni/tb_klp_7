@@ -7,206 +7,238 @@
     tools:context=".LogbookPersonal">
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/textView312"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:text="Nama"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView329"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/textView313"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="144dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="126dp"
         android:text="2011522032"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView20"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/textView314"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="Pembimbing KP"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView323"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView318" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView315"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="2dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView324" />
+
+    <TextView
+        android:id="@+id/textView316"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="24dp"
         android:text="BPTU HPT Padang Mengatas"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView21"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView313" />
 
     <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/textView317"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="100dp"
         android:text="20 Agustus 2022"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/textView318"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
         android:text="Dosen Pembimbing"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="@+id/textView319"
+        app:layout_constraintEnd_toStartOf="@+id/textView319"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView326" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView319"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView315" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/textView320"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView313"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView329" />
+
+    <TextView
+        android:id="@+id/textView321"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="68dp"
         android:text="Deyola Fadwa Shifana"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView322"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="192dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="176dp"
         android:text="Anto"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView19"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView325" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/textView323"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView319" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/textView324"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView320" />
 
     <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:text="Waktu KP"
-        android:textColor="#2E2D2D"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/textView325"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="100dp"
         android:text="Husnil Kamil, MT"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView317" />
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/textView326"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:text="Waktu KP"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView315"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView328" />
+
+    <TextView
+        android:id="@+id/textView327"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="NIM"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView320"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView312" />
 
     <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/textView328"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="Tempat KP"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView324"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView327" />
 
     <TextView
-        android:id="@+id/textView41"
+        android:id="@+id/textView329"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
         android:text=":"
         android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView321"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/textView85"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -223,33 +255,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
         android:text="10 September 2022"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView314" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="3 Agustus 2022"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="27 Agustus 2022"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/textView28"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/textView44"

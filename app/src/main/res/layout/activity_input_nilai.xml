@@ -7,206 +7,238 @@
     tools:context=".InputNilai">
 
     <TextView
-        android:id="@+id/textView59"
+        android:id="@+id/textView312"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:text="Nama"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView329"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView61"
+        android:id="@+id/textView313"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="144dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="126dp"
         android:text="2011522032"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView20"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView321" />
 
     <TextView
-        android:id="@+id/textView64"
+        android:id="@+id/textView314"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="Pembimbing KP"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView323"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView318" />
 
     <TextView
-        android:id="@+id/textView67"
+        android:id="@+id/textView315"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="2dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView324" />
+
+    <TextView
+        android:id="@+id/textView316"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="24dp"
         android:text="BPTU HPT Padang Mengatas"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView21"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView313" />
 
     <TextView
-        android:id="@+id/textView81"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView84"
+        android:id="@+id/textView317"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="100dp"
         android:text="20 Agustus 2022"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        tools:layout_editor_absoluteY="201dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView316" />
 
     <TextView
-        android:id="@+id/textView86"
+        android:id="@+id/textView318"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
         android:text="Dosen Pembimbing"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="@+id/textView319"
+        app:layout_constraintEnd_toStartOf="@+id/textView319"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView326" />
 
     <TextView
-        android:id="@+id/textView87"
+        android:id="@+id/textView319"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView315" />
 
     <TextView
-        android:id="@+id/textView88"
+        android:id="@+id/textView320"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text=":"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView313"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView329" />
+
+    <TextView
+        android:id="@+id/textView321"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="68dp"
         android:text="Deyola Fadwa Shifana"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView89"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=":"
-        android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/textView90"
+        android:id="@+id/textView322"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="192dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="176dp"
         android:text="Anto"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView19"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView325" />
 
     <TextView
-        android:id="@+id/textView91"
+        android:id="@+id/textView323"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView319" />
 
     <TextView
-        android:id="@+id/textView92"
+        android:id="@+id/textView324"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text=":"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView320" />
 
     <TextView
-        android:id="@+id/textView93"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:text="Waktu KP"
-        android:textColor="#2E2D2D"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="201dp" />
-
-    <TextView
-        android:id="@+id/textView94"
+        android:id="@+id/textView325"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="100dp"
         android:text="Husnil Kamil, MT"
         android:textColor="#2E2D2D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        tools:layout_editor_absoluteY="220dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView317" />
 
     <TextView
-        android:id="@+id/textView95"
+        android:id="@+id/textView326"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:text="Waktu KP"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView315"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView328" />
+
+    <TextView
+        android:id="@+id/textView327"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="NIM"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView320"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView312" />
 
     <TextView
-        android:id="@+id/textView96"
+        android:id="@+id/textView328"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
         android:text="Tempat KP"
         android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toStartOf="@+id/textView324"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="182dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView327" />
 
     <TextView
-        android:id="@+id/textView97"
+        android:id="@+id/textView329"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
         android:text=":"
         android:textColor="#2E2D2D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView321"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
     <TextView
-        android:id="@+id/textView107"
+        android:id="@+id/textView85"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
@@ -222,22 +254,28 @@
         android:id="@+id/textView121"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-black"
         android:text="Kehadiran (20%)"
         android:textColor="#2E2D2D"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="356dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout5"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView123" />
 
     <TextView
         android:id="@+id/textView123"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:fontFamily="sans-serif-black"
         android:text="Masukkan Nilai (1-100)"
         android:textColor="#2E2D2D"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView314" />
 
     <TextView
         android:id="@+id/textView122"
@@ -247,89 +285,116 @@
         android:fontFamily="sans-serif-black"
         android:text="Kerjasama (30%)"
         android:textColor="#2E2D2D"
-        app:layout_constraintTop_toBottomOf="@+id/textView121"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout4"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView121" />
 
     <TextView
         android:id="@+id/textView124"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="sans-serif-black"
         android:text="Sikap (10%)"
         android:textColor="#2E2D2D"
-        app:layout_constraintTop_toBottomOf="@+id/textView122"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView122" />
 
     <TextView
         android:id="@+id/textView125"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="sans-serif-black"
         android:text="Prestasi Kerja (20%)"
         android:textColor="#2E2D2D"
-        app:layout_constraintTop_toBottomOf="@+id/textView124"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textInputLayout7"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView124" />
 
     <TextView
         android:id="@+id/textView126"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="sans-serif-black"
         android:text="Kreativitas (20%)"
         android:textColor="#2E2D2D"
-        app:layout_constraintTop_toBottomOf="@+id/textView125"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView125" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
         android:layout_width="184dp"
         android:layout_height="27dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="356dp" >
+        app:layout_constraintTop_toBottomOf="@+id/textView123">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
         android:layout_width="184dp"
         android:layout_height="27dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="403dp">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
         android:layout_width="184dp"
         android:layout_height="29dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="453dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout7"
         android:layout_width="184dp"
         android:layout_height="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="502dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout8"
         android:layout_width="184dp"
         android:layout_height="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="557dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout7" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
         android:backgroundTint="#2E6578"
         android:text="Kirim"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="637dp" />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

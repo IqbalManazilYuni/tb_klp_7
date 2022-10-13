@@ -30,13 +30,14 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="373dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="229dp"
         android:layout_height="61dp"
+        android:layout_marginTop="13dp"
         android:backgroundTint="#2E6578"
         android:backgroundTintMode="add"
         android:text="Deyola Fadwa Shifana logbook 3"
@@ -44,8 +45,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="129dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button4"
@@ -58,8 +59,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button3"
@@ -72,8 +73,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="190dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button5"
@@ -86,8 +87,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="312dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button9"
@@ -100,8 +101,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="495dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button8"
@@ -114,8 +115,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="555dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button7"
@@ -128,8 +129,8 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:rippleColor="#2E6578" />
 
     <Button
         android:id="@+id/button10"
@@ -142,7 +143,7 @@
         app:iconTint="#2E6578"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:rippleColor="#2E6578"
-        tools:layout_editor_absoluteY="616dp" />
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:rippleColor="#2E6578" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
