@@ -27,37 +27,29 @@ class  DashboardKp : AppCompatActivity(), View.OnClickListener {
         gambarPindah.setOnClickListener(this)
 
 
-
-
         recyclerView = findViewById(R.id.recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         mahasiswaList = ArrayList()
 
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
-        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "2011522007"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Iqbal Manazil Yuni", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Deyola Fadwa Shifana", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Muhammad Erlangga", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Muhammad Yudishtira", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Kemal Muhammad Heiro", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Ilham", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Dzul Fauzi", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Muhammad Reza Riski Rahmadi", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
+        mahasiswaList.add(mahasiswa(R.drawable.ic_profile_dash, nama_mahasiswa = "Boby Dermawan", nim_mahasiswa = "201152xxxx", lokasi_kp = "PT.Semen Padang"))
 
 
         mahasiswaAdapter = MahasiswaAdapter(mahasiswaList)
         recyclerView.adapter = mahasiswaAdapter
+
+        mahasiswaAdapter.onItemClick = {
+            val intent = Intent(this, MenuPilihan::class.java)
+            startActivity(intent)
+        }
 
     }
     override fun onClick(p0: View?) {

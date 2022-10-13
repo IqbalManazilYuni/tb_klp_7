@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/detailLogbookFragment">
+
+    <fragment
+        android:id="@+id/detailLogbookFragment"
+        android:name="id.ac.unand.tb_klp_7.DetailLogbookFragment"
+        android:label="fragment_detail_logbook"
+        tools:layout="@layout/fragment_detail_logbook" />
+    <fragment
+        android:id="@+id/detailMahaFragment"
+        android:name="id.ac.unand.tb_klp_7.DetailMahaFragment"
+        android:label="fragment_detail_maha"
+        tools:layout="@layout/fragment_detail_maha" />
+    <fragment
+        android:id="@+id/detailSeminarFragment"
+        android:name="id.ac.unand.tb_klp_7.DetailSeminarFragment"
+        android:label="fragment_detail_seminar"
+        tools:layout="@layout/fragment_detail_seminar" />
+</navigation>
