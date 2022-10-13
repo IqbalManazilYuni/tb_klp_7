@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="LogBook"
+        android:id="@+id/detailLogbookFragment"
+        android:icon="@drawable/ic_list_detail_logbook"/>
+    <item android:title="Mahasiswa"
+        android:id="@+id/detailMahaFragment"
+        android:icon="@drawable/ic_detail_mahasiswa"/>
+    <item android:title="Seminar KP"
+        android:id="@+id/detailSeminarFragment"
+        android:icon="@drawable/ic_seminar_kp"/>
+</menu>
